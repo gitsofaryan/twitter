@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #15202b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+#logo{
+    width: 40px;
+}
+.main{
+    display: flex;
+}
+.left_container{
+    width: 20%;
+    height: 100vh;
+    padding: 10px 30px;
+padding-left: 60px;
+border-right: 1px solid rgba(128, 128, 128, 0.196);
+}
+.left_item {
+    margin: 10px 0;
+   padding: 10px 20px;
+    width: 50%;
+    border-radius: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.left_item span{
+    font-size: 20px;
+    font-weight: bold;
+   background: transparent;
+
+}
+.left_item:hover{
+    background-color: #7272724a;
+}
+.butt{
+    padding: 10px 80px;
+    background-color: #42b187;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+.profile_container{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+.dp{
+    width: 40px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.profile_container div {
+    display: flex;
+    flex-direction: column;
+}
+.mid_container{
+    width: 45%;
+border-right:1px solid rgba(128, 128, 128, 0.195);
+}
+.mid_container span{
+    align-items: center;
+      margin-left: 10px;
+}
+.imgt{
+    width: 40px;
+    border-radius: 40px;
+}
+.tc_navbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.tweet_container {
+    padding: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.196);
+}
+.right_container span{
+    align-items: center;
+    margin-left: 10px;
+    margin-left: 10px;
+
+}
+.right_container input{
+    margin: 20px 40px;
+    width: 300px;
+    border-radius: 40px;
+    
+}
+.hash{
+    display: flex;
+    font-weight: bold;
+}
+.hastags{
+    margin-left: 10px;
+}
